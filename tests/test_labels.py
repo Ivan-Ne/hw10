@@ -10,6 +10,7 @@ def test_dynamic_labels():
     allure.dynamic.link('https://github.com', name='Testing')
     pass
 
+
 @allure.tag('web')
 @allure.severity(Severity.CRITICAL)
 @allure.label('owner', 'eroshenkoam')
